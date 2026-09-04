@@ -1,0 +1,29 @@
+body {
+
+        /* Thanks stack overflow user on this thread (https://stackoverflow.com/questions/19925075/fit-website-background-image-to-screen-size) */
+        background: url(Backgrounds/tree2.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #1d1c1c;
+        
+        
+        h1.big {margin: auto; font-size: 50px; border-style: dotted; padding: 1%; width: fit-content;}
+
+        h2.big2 {margin: auto; font-size: 30px; border-style: dotted; padding: 1%; width: fit-content;}
+
+        div.big.text {font-size: 25px; margin-left: 10%; margin-right: 10%;}
+
+        ul.no.bullets {list-style-type: none; font-size: 30px;}
+
+        table.footer {margin-left: auto; margin-right: auto; width: 100%;}
+
+        
+
+        
+        
+      }
